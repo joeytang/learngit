@@ -57,5 +57,8 @@ $ git branch
 masterconflict
 
 
+$ git log --graph --pretty=oneline --abbrev-commit
+b1test
+
 
 
