@@ -27,3 +27,35 @@ ea34578 HEAD@{0}: reset: moving to HEAD^
 3628164 HEAD@{1}: commit: append GPL
 ea34578 HEAD@{2}: commit: add distributed
 cb926e7 HEAD@{3}: commit (initial): wrote a readme file
+
+
+$ git diff HEAD -- readme.txt 
+
+$ git checkout -- readme.txt
+
+$ git rm test.txt
+
+$ git remote add origin git@github.com:joeytang/learngit.git
+$ git push -u origin master
+$ git push origin master
+
+gitbash
+$ ssh-keygen -t rsa -C "tanghc@163.com"
+然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
+
+
+$ git clone git@github.com:joeytang/testgit.git
+
+
+$ git checkout -b dev
+Switched to a new branch 'dev'
+equals 
+$ git branch dev
+$ git checkout dev
+
+$ git branch
+
+
+
+
+
