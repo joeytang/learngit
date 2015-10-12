@@ -62,5 +62,9 @@ $ git log --graph --pretty=oneline --abbrev-commit
 b1teasdfasdfst123123
 b1test111
 
+$ git stash
 
+git stash apply
+git stash drop
 
+git stash pop
