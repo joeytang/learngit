@@ -90,3 +90,15 @@ $ git checkout -b dev origin/dev
 $ git pull
 $ git branch --set-upstream dev origin/dev
 $ git pull origin/dev
+
+git tag v1.0
+
+git tag
+$ git show v0.9
+
+$ git tag -a v0.1 -m "version 0.1 released" 3628164
+还可以通过-s用私钥签名一个标签：
+
+$ git tag -s v0.2 -m "signed version 0.2 released" fec145a
+$ git tag -d v0.1
+$ git push origin v1.0
